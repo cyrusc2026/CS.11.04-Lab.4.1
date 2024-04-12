@@ -5,7 +5,7 @@ static boolean parenthesesCheck(String str){
     int len = str.length();
     int count = 0;
     if (len < 2) return false;
-    for (int i = 0; i < len; i++){
+    for (int i =0; i < len; i++){
         if (str.charAt(i)==('(')) {
             count++;
         }
